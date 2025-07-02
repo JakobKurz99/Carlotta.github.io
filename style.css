@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3 {
+    text-align: center;
+    color: #333;
+}
+
+button, .ui-btn {
+    font-size: 16px !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+    display: block !important;
+    margin: 10px auto !important;
+}
+
+/* Buttons for the main page - Grey */
+#home .ui-btn {
+    background-color: #585858 !important; /* Sattes Grau */
+    color: white !important;
+}
+
+/* Buttons for the recipes page - Orange */
+#rezepte .ui-btn {
+    background-color: #ed8018e4 !important; /* Sattes Orange */
+    color: white !important;
+}
+
+/* Buttons for the shopping list page - Green */
+#einkaufsliste .ui-btn {
+    background-color: #21721be6 !important; /* Sattes Grün */
+    color: white !important;
+}
+
+/* Buttons for the nutrition page - Blue */
+#naehrwerte .ui-btn {
+    background-color: #206e9d !important; /* Sattes Blau */
+    color: white !important;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul li {
+        background: #f4f4f4;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+/* Einbindung vom Hintergrundbild auf der Titelseite */
+#home {
+    background-image: url('https://www.alterhof-hotel.de/wp-content/uploads/2019/02/Hintergrundbild_startseite_2.png');
+    background-size: cover; /* Das Bild wird skaliert, um den gesamten Bereich zu füllen */
+    background-position: center; /* Das Bild wird zentriert */
+    background-repeat: no-repeat; /* Das Bild wird nicht wiederholt */
+}
+#exportPdf {
+    width: 100%; /* Gleiche Breite wie andere Buttons */
+    max-width: 400px; /* Optional: Maximale Breite */
+}
+ 
+
+
